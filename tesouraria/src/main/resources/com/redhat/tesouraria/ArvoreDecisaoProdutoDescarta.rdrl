@@ -4,7 +4,11 @@ import java.lang.Number;
 
 rule "ArvoreDecisaoProdutoDescarta"
 	dialect "mvel"
+	no-loop true
 	when
 		op : Operacao( ( mesa == "CAMBIO" || mesa == "FX" )&& operadorNaLista == true )
 	then
+		modify( op ) {
+				setDecisaoProduto( "DESCARTA" )
+		}
 end
