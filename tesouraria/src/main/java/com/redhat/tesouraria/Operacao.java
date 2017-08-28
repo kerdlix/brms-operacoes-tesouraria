@@ -17,6 +17,10 @@ public class Operacao implements java.io.Serializable
    private java.lang.String decisaoProduto;
    private java.lang.String decisaoOperador;
 
+   private java.lang.Boolean operadorNaLista;
+
+   private java.lang.Boolean produtoNaLista;
+
    public Operacao()
    {
    }
@@ -91,10 +95,31 @@ public class Operacao implements java.io.Serializable
       this.decisaoOperador = decisaoOperador;
    }
 
+   public java.lang.Boolean getOperadorNaLista()
+   {
+      return this.operadorNaLista;
+   }
+
+   public void setOperadorNaLista(java.lang.Boolean operadorNaLista)
+   {
+      this.operadorNaLista = operadorNaLista;
+   }
+
+   public java.lang.Boolean getProdutoNaLista()
+   {
+      return this.produtoNaLista;
+   }
+
+   public void setProdutoNaLista(java.lang.Boolean produtoNaLista)
+   {
+      this.produtoNaLista = produtoNaLista;
+   }
+
    public Operacao(java.lang.String mesa, java.lang.String gestor,
          java.lang.String operador, java.lang.String produto,
-         java.lang.String decisaoEstrategia,
-         java.lang.String decisaoProduto, java.lang.String decisaoOperador)
+         java.lang.String decisaoEstrategia, java.lang.String decisaoProduto,
+         java.lang.String decisaoOperador, java.lang.Boolean operadorNaLista,
+         java.lang.Boolean produtoNaLista)
    {
       this.mesa = mesa;
       this.gestor = gestor;
@@ -103,6 +128,8 @@ public class Operacao implements java.io.Serializable
       this.decisaoEstrategia = decisaoEstrategia;
       this.decisaoProduto = decisaoProduto;
       this.decisaoOperador = decisaoOperador;
+      this.operadorNaLista = operadorNaLista;
+      this.produtoNaLista = produtoNaLista;
    }
 
 }
