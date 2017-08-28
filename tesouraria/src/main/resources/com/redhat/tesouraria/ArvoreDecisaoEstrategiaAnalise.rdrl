@@ -4,6 +4,12 @@ import java.lang.Number;
 
 rule "ArvoreDecisaoEstrategiaAnalise"
 	dialect "mvel"
+	no-loop true
 	when
+		op : Operacao( decisaoEstrategia == null )
 	then
+		System.out.println("ARVORE DE DECISAO ESTRATEGIA GESTOR: RETORNA PARA ANALISE");
+		modify( op ) {
+				setDecisaoEstrategia( "RETORNA PARA ANALISE" )
+		}
 end
