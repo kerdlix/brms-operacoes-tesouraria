@@ -1,0 +1,9 @@
+package com.redhat.tesouraria;
+
+import java.lang.Number;
+
+rule "ArvoreDecisaoProdutoDescarta"
+	dialect "mvel"
+	when
+	then
+end
