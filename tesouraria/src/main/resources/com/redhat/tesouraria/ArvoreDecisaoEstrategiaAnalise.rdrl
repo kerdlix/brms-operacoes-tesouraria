@@ -5,6 +5,7 @@ import java.lang.Number;
 rule "ArvoreDecisaoEstrategiaAnalise"
 	dialect "mvel"
 	no-loop true
+	ruleflow-group "analisar"
 	when
 		op : Operacao( decisaoEstrategia == null )
 	then
