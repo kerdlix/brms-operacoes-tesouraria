@@ -5,6 +5,7 @@ import java.lang.Number;
 rule "ArvoreDecisaoEstrategiaDescarta"
 	dialect "mvel"
 	no-loop true
+	ruleflow-group "descartar"
 	when
 		op : Operacao( ( mesa == "CAMBIO" || mesa == "FX" )&& ( gestor == "CAMBIO" || gestor == "HEDGE" ))
 	then
