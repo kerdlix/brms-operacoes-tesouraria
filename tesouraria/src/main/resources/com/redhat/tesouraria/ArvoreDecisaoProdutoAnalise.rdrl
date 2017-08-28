@@ -4,6 +4,12 @@ import java.lang.Number;
 
 rule "ArvoreDecisaoProdutoAnalise"
 	dialect "mvel"
+	no-loop true
+	ruleflow-group "analisar"
 	when
+		op : Operacao( decisaoProduto == null )
 	then
+		modify( op ) {
+				setDecisaoProduto( "RETORNA PARA ANALISE" )
+		}
 end
