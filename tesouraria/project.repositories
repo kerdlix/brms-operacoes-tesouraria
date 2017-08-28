@@ -27,6 +27,14 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>jboss-ga-public-plugin-repository</id>
+        <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>local</id>
         <url>/home/daniel/.m2/repository</url>
         <source>LOCAL</source>
@@ -37,14 +45,6 @@
       <metadata>
         <id>jboss-releases</id>
         <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-ga-public-plugin-repository</id>
-        <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
