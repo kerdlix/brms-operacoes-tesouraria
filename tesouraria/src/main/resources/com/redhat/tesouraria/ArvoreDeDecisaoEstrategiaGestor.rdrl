@@ -5,5 +5,9 @@ import java.lang.Number;
 rule "ArvoreDeDecisaoEstrategiaGestor"
 	dialect "mvel"
 	when
+		op : Operacao( ( mesa == "CAMBIO" || mesa == "FX" )&& ( gestor == "CAMBIO" || gestor == "HEDGE" ))
 	then
+		modify( op ) {
+				setDecisaoEstrategia( "DESCARTA" )
+		}
 end
