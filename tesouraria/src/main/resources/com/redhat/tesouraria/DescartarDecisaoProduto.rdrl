@@ -6,6 +6,7 @@ rule "DescartarDecisaoProduto"
 	dialect "mvel"
 	no-loop true
 	ruleflow-group "descartar"
+	lock-on-active true
 	when
 		op : Operacao( ( mesa == "CAMBIO" || mesa == "FX" )&& operadorNaLista == true && produtoNaLista == true )
 	then
