@@ -33,38 +33,45 @@
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
       <name>listas</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>descartar</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>analisar</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>51</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>decisaoEstrategia</fieldName>
           <expected>DESCARTAR</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[o2] field [decisaoEstrategia] was [] expected [DESCARTAR].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
         <expect-field>
           <fieldName>decisaoProduto</fieldName>
           <expected>RETORNAR PARA ANALISE</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[o2] field [decisaoProduto] was [] expected [RETORNAR PARA ANALISE].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
         <expect-field>
           <fieldName>decisaoOperador</fieldName>
           <expected>DESCARTAR</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[o2] field [decisaoOperador] was [] expected [DESCARTAR].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>o2</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2017-08-29 14:37:10.978 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.redhat.tesouraria</packageName>
