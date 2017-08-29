@@ -1,0 +1,16 @@
+package com.redhat.tesouraria;
+
+import java.lang.Number;
+
+rule "DescartarDecisaoOperador"
+	dialect "mvel"
+	no-loop true
+	ruleflow-group "descartar"
+	when
+		op : Operacao( ( mesa == "CAMBIO" || mesa == "FX" )&& operadorNaLista == true && produtoNaLista == true )
+	then
+		System.out.println("ARVORE DE DECISAO ESTRATEGIA PRODUTO: DESCARTAR");
+		modify( op ) {
+				setDecisaoProduto( "DESCARTAR" )
+		}
+end
