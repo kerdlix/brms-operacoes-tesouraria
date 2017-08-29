@@ -1,2 +1,8 @@
 package com.redhat.tesouraria;
 
+rule "StartProcess"
+    when
+        $op : Operacao( )
+    then
+        System.out.println("INICIANDO PROCESSO PARA TESTE UNITARIO"); 
+end
