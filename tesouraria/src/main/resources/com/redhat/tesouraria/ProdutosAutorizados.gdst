@@ -50,15 +50,16 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Operador Negociação</header>
+          <header>Produto Autorizado</header>
           <constraintValueType>1</constraintValueType>
-          <factField>operador</factField>
+          <factField>produto</factField>
           <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
       </conditions>
       <window>
+        <operator></operator>
         <parameters/>
       </window>
     </Pattern52>
@@ -73,9 +74,9 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>Habilitado?</header>
+      <header>Autorizado?</header>
       <boundName>op</boundName>
-      <factField>operadorNaLista</factField>
+      <factField>produtoNaLista</factField>
       <type>Boolean</type>
       <update>true</update>
     </set-field-col52>
@@ -116,6 +117,7 @@
     <list>
       <value>
         <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -136,7 +138,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Operador Cambio 1</valueString>
+        <valueString>Produto Cambio 1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -150,6 +152,7 @@
     <list>
       <value>
         <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -170,7 +173,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Operador Cambio 2</valueString>
+        <valueString>Produto Cambio 2</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -184,6 +187,7 @@
     <list>
       <value>
         <valueNumeric class="int">3</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -204,7 +208,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Operador Cambio 3</valueString>
+        <valueString>Produto Cambio 3</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -218,6 +222,7 @@
     <list>
       <value>
         <valueNumeric class="int">4</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -238,7 +243,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Operador Cambio 4</valueString>
+        <valueString>Produto Cambio 4</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -252,6 +257,7 @@
     <list>
       <value>
         <valueNumeric class="int">5</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -272,7 +278,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Operador Cambio 5</valueString>
+        <valueString>Produto Cambio 5</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
