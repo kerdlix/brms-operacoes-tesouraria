@@ -1,0 +1,13 @@
+<scenario>
+  <name>Teste1</name>
+  <maxRuleFirings>100000</maxRuleFirings>
+  <globals/>
+  <fixtures/>
+  <rules/>
+  <inclusive>false</inclusive>
+  <packageName>com.redhat.tesouraria</packageName>
+  <imports>
+    <imports/>
+  </imports>
+  <ksessions/>
+</scenario>
