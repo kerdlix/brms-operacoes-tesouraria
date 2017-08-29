@@ -9,8 +9,8 @@ rule "AnalisarDecisaoEstrategia"
 	when
 		op : Operacao( decisaoEstrategia == null )
 	then
-		System.out.println("ARVORE DE DECISAO ESTRATEGIA GESTOR: RETORNA PARA ANALISE");
+		System.out.println("ARVORE DE DECISAO ESTRATEGIA GESTOR: RETORNAR PARA ANALISE");
 		modify( op ) {
-				setDecisaoEstrategia( "RETORNA PARA ANALISE" )
+				setDecisaoEstrategia( "RETORNAR PARA ANALISE" )
 		}
 end
