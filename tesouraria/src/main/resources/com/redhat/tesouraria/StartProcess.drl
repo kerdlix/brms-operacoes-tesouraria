@@ -1,6 +1,9 @@
 package com.redhat.tesouraria;
 
 rule "StartProcess"
+
+    ruleflow-group "start"
+
     when
         $op : Operacao( )
     then
