@@ -34,7 +34,7 @@
       <name>start</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>51</executionTimeResult>
+      <executionTimeResult>52</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -71,9 +71,9 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-08-29 14:37:10.978 UTC</lastRunResult>
+  <lastRunResult>2017-08-29 14:51:36.664 UTC</lastRunResult>
   <rules/>
-  <inclusive>false</inclusive>
+  <inclusive>true</inclusive>
   <packageName>com.redhat.tesouraria</packageName>
   <imports>
     <imports/>
