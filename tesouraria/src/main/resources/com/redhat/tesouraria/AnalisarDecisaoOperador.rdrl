@@ -7,10 +7,10 @@ rule "AnalisarDecisaoOperador"
 	no-loop true
 	ruleflow-group "analisar"
 	when
-		op : Operacao( decisaoProduto == null )
+		op : Operacao( decisaoOperador == null )
 	then
-		System.out.println("ARVORE DE DECISAO ESTRATEGIA PRODUTO: RETORNAR PARA ANALISE");
+		System.out.println("ARVORE DE DECISAO OPERADOR x GESTOR: RETORNAR PARA ANALISE");
 		modify( op ) {
-				setDecisaoProduto( "RETORNAR PARA ANALISE" )
+				setDecisaoOperador( "RETORNAR PARA ANALISE" )
 		}
 end
