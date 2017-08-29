@@ -9,7 +9,7 @@ rule "DescartarDecisaoEstrategia"
 	when
 		op : Operacao( ( mesa == "CAMBIO" || mesa == "FX" )&& ( gestor == "CAMBIO" || gestor == "HEDGE" ))
 	then
-		System.out.println("ARVORE DE DECISAO ESTRATEGIA GESTOR: DESCARTAR");
+		System.out.println("ARVORE DE DECISAO ESTRATEGIA x GESTOR: DESCARTAR");
 		modify( op ) {
 				setDecisaoEstrategia( "DESCARTAR" )
 		}
