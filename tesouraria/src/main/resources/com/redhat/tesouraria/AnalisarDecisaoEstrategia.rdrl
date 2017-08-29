@@ -2,7 +2,7 @@ package com.redhat.tesouraria;
 
 import java.lang.Number;
 
-rule "ArvoreDecisaoEstrategiaAnalise"
+rule "AnalisarDecisaoEstrategia"
 	dialect "mvel"
 	no-loop true
 	ruleflow-group "analisar"
