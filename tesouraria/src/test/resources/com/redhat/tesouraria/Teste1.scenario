@@ -46,19 +46,19 @@
           <fieldName>decisaoEstrategia</fieldName>
           <expected>RETORNAR PARA ANALISE</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
         <expect-field>
           <fieldName>decisaoProduto</fieldName>
           <expected>RETORNAR PARA ANALISE</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
         <expect-field>
           <fieldName>decisaoOperador</fieldName>
           <expected>RETORNAR PARA ANALISE</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>o1</name>
@@ -72,6 +72,6 @@
     <imports/>
   </imports>
   <ksessions>
-    <string>mySession</string>
+    <string>mySessionStateful</string>
   </ksessions>
 </scenario>
