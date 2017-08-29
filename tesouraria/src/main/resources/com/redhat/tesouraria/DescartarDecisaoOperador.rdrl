@@ -7,10 +7,10 @@ rule "DescartarDecisaoOperador"
 	no-loop true
 	ruleflow-group "descartar"
 	when
-		op : Operacao( ( mesa == "CAMBIO" || mesa == "FX" )&& operadorNaLista == true && produtoNaLista == true )
+		op : Operacao( ( mesa == "CAMBIO" || mesa == "FX" )&& operadorNaLista == true )
 	then
-		System.out.println("ARVORE DE DECISAO ESTRATEGIA PRODUTO: DESCARTAR");
+		System.out.println("ARVORE DE DECISAO OPERADOR x GESTOR: DESCARTAR");
 		modify( op ) {
-				setDecisaoProduto( "DESCARTAR" )
+				setDecisaoOperador( "DESCARTAR" )
 		}
 end
