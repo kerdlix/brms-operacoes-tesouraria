@@ -11,6 +11,6 @@ rule "DescartarDecisaoProduto"
 	then
 		System.out.println("ARVORE DE DECISAO ESTRATEGIA PRODUTO: DESCARTAR");
 		modify( op ) {
-				setDecisaoProduto( "DESCARTA" )
+				setDecisaoProduto( "DESCARTAR" )
 		}
 end
