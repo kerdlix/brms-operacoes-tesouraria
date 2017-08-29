@@ -11,6 +11,6 @@ rule "DescartarDecisaoEstrategia"
 	then
 		System.out.println("ARVORE DE DECISAO ESTRATEGIA GESTOR: DESCARTAR");
 		modify( op ) {
-				setDecisaoEstrategia( "DESCARTA" )
+				setDecisaoEstrategia( "DESCARTAR" )
 		}
 end
