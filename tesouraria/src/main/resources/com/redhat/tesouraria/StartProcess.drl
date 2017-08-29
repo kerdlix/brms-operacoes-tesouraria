@@ -8,5 +8,8 @@ rule "StartProcess"
         $op : Operacao( )
     then
         System.out.println("INICIANDO PROCESSO PARA TESTE UNITARIO");
-        drools.startProcess("tesouraria.Fluxo");
+        Map params = new HashMap();
+        params.put("operacao", op);
+        ProcessInstance pi = kcontext.getKnowledgeRuntime().startProcess("tesouraria.Fluxo", params);
+        
 end
