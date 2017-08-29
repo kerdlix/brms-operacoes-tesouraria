@@ -6,6 +6,7 @@ rule "AnalisarDecisaoOperador"
 	dialect "mvel"
 	no-loop true
 	ruleflow-group "analisar"
+	lock-on-active true
 	when
 		op : Operacao( decisaoOperador == null )
 	then
