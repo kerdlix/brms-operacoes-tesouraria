@@ -11,9 +11,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-releases</id>
-        <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
-        <source>SETTINGS</source>
+        <id>guvnor-m2-repo</id>
+        <url>http://localhost:8080/business-central/maven2/</url>
+        <source>PROJECT</source>
       </metadata>
     </repository>
     <repository>
@@ -29,6 +29,30 @@
       <metadata>
         <id>jboss-ga-plugin-repository</id>
         <url>http://maven.repository.redhat.com/techpreview/all</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>fuse-public-plugin-repository</id>
+        <url>https://repo.fusesource.com/nexus/content/groups/public</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-releases</id>
+        <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -51,25 +75,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>fuse-repository</id>
         <url>https://repo.fusesource.com/nexus/content/repositories/releases/</url>
         <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>guvnor-m2-repo</id>
-        <url>http://localhost:8080/business-central/maven2/</url>
-        <source>PROJECT</source>
       </metadata>
     </repository>
     <repository>
@@ -83,24 +91,8 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>fusesource.ea</id>
-        <url>https://repo.fusesource.com/nexus/content/groups/ea</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>prime-repo</id>
         <url>http://repository.primefaces.org</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>fuse-plugin-repository</id>
-        <url>https://repo.fusesource.com/nexus/content/repositories/releases/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -115,8 +107,16 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>fuse-public-plugin-repository</id>
-        <url>https://repo.fusesource.com/nexus/content/groups/public</url>
+        <id>fusesource.ea</id>
+        <url>https://repo.fusesource.com/nexus/content/groups/ea</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>fuse-plugin-repository</id>
+        <url>https://repo.fusesource.com/nexus/content/repositories/releases/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
