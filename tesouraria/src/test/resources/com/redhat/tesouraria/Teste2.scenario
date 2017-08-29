@@ -1,5 +1,5 @@
 <scenario>
-  <name>Teste1.scenario</name>
+  <name>Teste2.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>mesa</name>
-          <value>EMPRESTIMOS</value>
+          <value>FX</value>
           <nature>4</nature>
         </field-data>
         <field-data>
@@ -23,7 +23,7 @@
         </field-data>
         <field-data>
           <name>produto</name>
-          <value>Produto Cambio 1</value>
+          <value>Produto Cambio 6</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -44,7 +44,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>decisaoEstrategia</fieldName>
-          <expected>RETORNAR PARA ANALISE</expected>
+          <expected>DESCARTAR</expected>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -56,7 +56,7 @@
         </expect-field>
         <expect-field>
           <fieldName>decisaoOperador</fieldName>
-          <expected>RETORNAR PARA ANALISE</expected>
+          <expected>DESCARTAR</expected>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
