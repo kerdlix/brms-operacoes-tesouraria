@@ -7,5 +7,6 @@ rule "StartProcess"
     when
         $op : Operacao( )
     then
-        System.out.println("INICIANDO PROCESSO PARA TESTE UNITARIO"); 
+        System.out.println("INICIANDO PROCESSO PARA TESTE UNITARIO");
+        drools.startProcess("tesouraria.Fluxo");
 end
