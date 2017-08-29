@@ -3,6 +3,7 @@ package com.redhat.tesouraria;
 import java.util.HashMap;
 import java.util.Map;
 
+
 rule "StartProcess"
 
     ruleflow-group "start"
