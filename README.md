@@ -1,59 +1,10 @@
 # BRMS Monitoramento de Operações Tesouraria
 
-## Listas de Apoio Parâmetros
-
-### Operador de Negociação - Cambio
-* Operador Cambio 1
-* Operador Cambio 2
-* Operador Cambio 3
-* Operador Cambio 4
-* Operador Cambio 5
-
-### Produtos Autorizados – Cambio
-* Produto Cambio 1
-* Produto Cambio 2
-* Produto Cambio 3
-* Produto Cambio 4
-* Produto Cambio 5
-
 ## Variáveis de entrada para cada regra
 * Mesa
 * Gestor
 * Operador negociação
 * Produto
-
-## Árvores de Decisão
-
-### Árvore de decisão Estratégia X Gestor	
-```
-IF (Mesa = “CAMBIO” 	OU  Mesa =  “FX”)		=	VERDADEIRO	AND
-    (Gestor = “CAMBIO”	OU Gestor = “HEDGE”)		=	VERDADEIRO	
-	ENTÃO	
-		S: Descarta
-	SE NÃO	
-		N: Retorna para análise
-```
-
-### Árvore de decisão Produto X Gestor		
-```
-IF (Mesa = “CAMBIO” 	OU  Mesa =  “FX”)				     = VERDADEIRO	AND
-    (Operador Negociação contém Lista Operador  de Negociação – Cambio) = VERDADEIRO	AND
-    (Produto contém Lista Produtos Autorizados –  Cambio) 		     = VERDADEIRO	
-	ENTÃO	
-		S: Descarta
-	SE NÃO	
-		N: Retorna pra análise
-```
-
-### Árvore de decisão Operador X Gestor	
-```
-IF (Mesa = “CAMBIO” 	OU  Mesa =  “FX”)				      =	VERDADEIRO	AND
-    (Operador Negociação contém Lista Operador  de Negociação – Cambio)  =	VERDADEIRO	
-	ENTÃO	
-		S: Descarta
-	SE NÃO	
-		N: Retorna pra análise
-```
 
 ## Cenários de Testes
 
