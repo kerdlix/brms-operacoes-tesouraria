@@ -1,5 +1,3 @@
-# brms-operacoes-tesouraria
-
 # BRMS Monitoramento de Operações Tesouraria
 
 ## Listas de Apoio Parâmetros
