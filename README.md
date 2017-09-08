@@ -6,37 +6,6 @@
 * Operador negociação
 * Produto
 
-## Cenários de Testes
-
-### Cenário 1
-Variáveis de Entrada: 
-```
-Mesa 			= “EMPRESTIMOS”
-Gestor 			= “CAMBIO”
-Operador negociação	= “OPERADOR CAMBIO 1”
-Produto 		= “PRODUTO CAMBIO 1”
-```
-Resultado Esperado:
-```
-Árvore de decisão Estratégia X Gestor >> RETORNAR PARA ANÁLISE
-Árvore de decisão Produto X Gestor    >> Retornar para análise
-Árvore de decisão Operador X Gestor >> Retorna para análise
-```
-
-### Cenário 2
-Variáveis de Entrada: 
-```
-Mesa 			= “FX”
-Gestor 			= “CAMBIO”
-Operador negociação 	= “OPERADOR CAMBIO 1”
-Produto 		= “PRODUTO CAMBIO 6”
-```
-Resultado Esperado :
-```
-Árvore de decisão Estratégia X Gestor	>> Descarta
-Árvore de decisão Produto X Gestor	>> Retorna pra análise
-Árvore de decisão Operador X Gestor	>> Descarta
-```
 ## Execução dos Testes
 
 ### URL Post
