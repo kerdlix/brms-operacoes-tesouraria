@@ -6,6 +6,43 @@
 * Operador negociação
 * Produto
 
+## Construção
+
+### 1) Organizational Units
+<p align="center"><img src="/images/01.png?raw=true"></p>
+
+### 2) Project
+<p align="center"><img src="/images/02.png?raw=true"></p>
+<p align="center"><img src="/images/03.png?raw=true"></p>
+
+### 3) Data Object
+<p align="center"><img src="/images/04.png?raw=true"></p>
+
+### 4) Ruleflow
+<p align="center"><img src="/images/05.png?raw=true"></p>
+
+### 5) Grupo listas
+<p align="center"><img src="/images/06.png?raw=true"></p>
+<p align="center"><img src="/images/07.png?raw=true"></p>
+
+### 6) Grupo descartar
+<p align="center"><img src="/images/08.png?raw=true"></p>
+<p align="center"><img src="/images/09.png?raw=true"></p>
+<p align="center"><img src="/images/10.png?raw=true"></p>
+
+### 7) Grupo analisar
+<p align="center"><img src="/images/11.png?raw=true"></p>
+<p align="center"><img src="/images/12.png?raw=true"></p>
+<p align="center"><img src="/images/13.png?raw=true"></p>
+
+### 8) Decision Server
+<p align="center"><img src="/images/14.png?raw=true"></p>
+
+### 9) Cenários de testes
+<p align="center"><img src="/images/15.png?raw=true"></p>
+<p align="center"><img src="/images/16.png?raw=true"></p>
+
+
 ## Execução dos Testes
 
 ### URL Post
@@ -102,41 +139,6 @@ http://localhost:8080/kie-server/services/rest/server/containers/instances/tesou
 ```
 
 
-## Construção
-
-### Organizational Units
-<p align="center"><img src="/images/01.png?raw=true"></p>
-
-### Project
-<p align="center"><img src="/images/02.png?raw=true"></p>
-<p align="center"><img src="/images/03.png?raw=true"></p>
-
-### Data Object
-<p align="center"><img src="/images/04.png?raw=true"></p>
-
-### Ruleflow
-<p align="center"><img src="/images/05.png?raw=true"></p>
-
-### Grupo listas
-<p align="center"><img src="/images/06.png?raw=true"></p>
-<p align="center"><img src="/images/07.png?raw=true"></p>
-
-### Grupo descartar
-<p align="center"><img src="/images/08.png?raw=true"></p>
-<p align="center"><img src="/images/09.png?raw=true"></p>
-<p align="center"><img src="/images/10.png?raw=true"></p>
-
-### Grupo analisar
-<p align="center"><img src="/images/11.png?raw=true"></p>
-<p align="center"><img src="/images/12.png?raw=true"></p>
-<p align="center"><img src="/images/13.png?raw=true"></p>
-
-### Decision Server
-<p align="center"><img src="/images/14.png?raw=true"></p>
-
-### Cenários de testes
-<p align="center"><img src="/images/15.png?raw=true"></p>
-<p align="center"><img src="/images/16.png?raw=true"></p>
 
 
 
