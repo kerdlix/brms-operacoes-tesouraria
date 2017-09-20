@@ -16,6 +16,7 @@ rule "StartProcess"
         params.put("o1", $op);
         insertLogical($op);
         kcontext.getKnowledgeRuntime().startProcess("tesouraria.Fluxo", params);
+        insertLogical($op);
         //retract($op);
         
 end
