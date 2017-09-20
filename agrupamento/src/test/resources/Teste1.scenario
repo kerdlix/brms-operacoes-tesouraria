@@ -37,7 +37,7 @@
           <fieldName>decisaoProduto</fieldName>
           <expected>RETORNAR PARA ANALISE</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>o</name>
@@ -55,6 +55,6 @@
     </imports>
   </imports>
   <ksessions>
-    <string>mySession</string>
+    <string>mySessionStateful</string>
   </ksessions>
 </scenario>
