@@ -2,9 +2,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-rule "StartProcess"
+rule "StartProcessNow"
 
-    ruleflow-group "start"
+    ruleflow-group "startNow"
 	no-loop true
 	lock-on-active true
 
