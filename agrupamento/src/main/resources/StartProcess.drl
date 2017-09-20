@@ -15,6 +15,6 @@ rule "StartProcess"
         Map params = new HashMap();
         params.put("o1", $op);
         kcontext.getKnowledgeRuntime().startProcess("tesouraria.Fluxo", params);
-        retract($op);
+        //retract($op);
         
 end
