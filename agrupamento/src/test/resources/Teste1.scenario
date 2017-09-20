@@ -31,7 +31,7 @@
       <isModify>false</isModify>
     </fact-data>
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>startProcessNow</name>
+      <name>startNow</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
       <executionTimeResult>0</executionTimeResult>
