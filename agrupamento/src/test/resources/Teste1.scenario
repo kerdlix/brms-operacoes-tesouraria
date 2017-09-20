@@ -30,12 +30,21 @@
       <name>o</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>start</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+    <execution-trace>
+      <executionTimeResult>88</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>decisaoProduto</fieldName>
           <expected>RETORNAR PARA ANALISE</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[o] field [decisaoProduto] was [] expected [RETORNAR PARA ANALISE].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -44,6 +53,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2017-09-20 19:44:36.30 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName></packageName>
