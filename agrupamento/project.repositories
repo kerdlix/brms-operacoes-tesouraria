@@ -11,9 +11,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/home/daniel/.m2/repository</url>
-        <source>LOCAL</source>
+        <id>jboss-releases</id>
+        <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
@@ -27,17 +27,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-ga-public-plugin-repository</id>
-        <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
-        <source>SETTINGS</source>
+        <id>local</id>
+        <url>/home/daniel/.m2/repository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
     <repository>
@@ -45,6 +37,14 @@
       <metadata>
         <id>fuse-plugin-repository</id>
         <url>https://repo.fusesource.com/nexus/content/repositories/releases/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>fuse-public-repository</id>
+        <url>https://repo.fusesource.com/nexus/content/groups/public</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -59,24 +59,16 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-releases</id>
-        <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
+        <id>jboss-ga-public-plugin-repository</id>
+        <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>fuse-public-plugin-repository</id>
-        <url>https://repo.fusesource.com/nexus/content/groups/public</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>fuse-public-repository</id>
-        <url>https://repo.fusesource.com/nexus/content/groups/public</url>
+        <id>jboss-ga-repository</id>
+        <url>http://maven.repository.redhat.com/techpreview/all</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -115,8 +107,16 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-ga-repository</id>
-        <url>http://maven.repository.redhat.com/techpreview/all</url>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>fuse-public-plugin-repository</id>
+        <url>https://repo.fusesource.com/nexus/content/groups/public</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
