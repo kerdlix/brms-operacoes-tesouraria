@@ -1,0 +1,20 @@
+import java.util.HashMap;
+import java.util.Map;
+
+
+rule "StartProcess"
+
+    ruleflow-group "start"
+	no-loop true
+	lock-on-active true
+
+    when
+        $op : Operacao( )
+    then
+        System.out.println("INICIANDO PROCESSO PARA TESTE UNITARIO");
+        Map params = new HashMap();
+        params.put("o1", $op);
+        kcontext.getKnowledgeRuntime().startProcess("tesouraria.Fluxo", params);
+        retract($op);
+        
+end
