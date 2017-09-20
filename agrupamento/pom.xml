@@ -7,6 +7,20 @@
   <version>1.0</version>
   <packaging>kjar</packaging>
   <name>agrupamento</name>
+  <dependencies>
+    <dependency>
+      <groupId>com.redhat</groupId>
+      <artifactId>tesouraria</artifactId>
+      <version>1.20</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.redhat</groupId>
+      <artifactId>impacto</artifactId>
+      <version>1.8</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
