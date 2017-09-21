@@ -24,8 +24,7 @@ rule "StartProcess"
 
         System.out.println("... disparando regras...");
         
-ksession.startProcess("tesouraria.Fluxo");        
-        
+
         kcontext.getKnowledgeRuntime().fireAllRules();
         //retract($op);
         
