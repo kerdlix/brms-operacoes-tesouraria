@@ -19,7 +19,7 @@ rule "StartProcessNow"
         kcontext.getKnowledgeRuntime().startProcess("tesouraria.Fluxo", params);
 
         System.out.println("... disparando regras...");
-        kcontext.getKnowledgeRuntime().fireAllRules();
+        kcontext.getKnowledgeRuntime().fireAllRules2();
         //retract($op);
         
 end
