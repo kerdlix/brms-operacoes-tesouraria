@@ -13,7 +13,7 @@ rule "StartProcess"
     when
         $op : Operacao( )
     then
-        System.out.println("INICIANDO PROCESSO PARA TESTE UNITARIO");
+        System.out.println("INICIANDO PROCESSO PARA TESTE UNITARIO1");
         Map params = new HashMap();
         params.put("o1", $op);
         kcontext.getKnowledgeRuntime().startProcess("tesouraria.Fluxo", params);
