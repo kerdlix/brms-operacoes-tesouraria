@@ -1,5 +1,5 @@
 <scenario>
-  <name>Teste1.scenario</name>
+  <name>Teste3.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
@@ -8,12 +8,12 @@
       <fieldData>
         <field-data>
           <name>mesa</name>
-          <value>EMPRESTIMOS</value>
+          <value>FX</value>
           <nature>4</nature>
         </field-data>
         <field-data>
           <name>gestor</name>
-          <value>CAMBIO</value>
+          <value>MESA</value>
           <nature>4</nature>
         </field-data>
         <field-data>
@@ -23,7 +23,7 @@
         </field-data>
         <field-data>
           <name>produto</name>
-          <value>Produto Cambio 1</value>
+          <value>Produto Cambio 6</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
