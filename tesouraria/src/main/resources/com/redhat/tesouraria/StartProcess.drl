@@ -24,7 +24,6 @@ rule "StartProcess"
 
         System.out.println("... disparando regras...");
         
-StatefulKnowledgeSession ksession = kbase.newStatefulKnowledgeSession();
 ksession.startProcess("tesouraria.Fluxo");        
         
         kcontext.getKnowledgeRuntime().fireAllRules();
