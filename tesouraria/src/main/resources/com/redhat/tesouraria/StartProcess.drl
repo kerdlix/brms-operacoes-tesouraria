@@ -22,7 +22,7 @@ rule "StartProcess"
 
         System.out.println("... disparando regras...");
         kcontext.getKnowledgeRuntime().fireAllRules();
-        
+
         //retract($op);
         
 end
