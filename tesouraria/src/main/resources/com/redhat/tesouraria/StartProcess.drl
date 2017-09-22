@@ -29,7 +29,7 @@ rule "StartProcess"
         System.out.println("... 2 ...");
 
         //insert the instance in the WM: this will create the activation of the other rule
-        //insertLogical(processInstance);
+        insert(processInstance);
 
         System.out.println("... 3 ...");
 
