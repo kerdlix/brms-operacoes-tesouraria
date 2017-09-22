@@ -86,6 +86,6 @@
     <imports/>
   </imports>
   <ksessions>
-    <string>mySessionStateful</string>
+    <string>tesourariaStatefulSession</string>
   </ksessions>
 </scenario>
