@@ -31,6 +31,7 @@ rule "StartProcess"
         //now, start the process
         kcontext.getKnowledgeRuntime().startProcessInstance(processInstance.getId());        
         retract($op);
+        retract(processInstance);
 
         
         
