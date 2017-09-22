@@ -23,7 +23,7 @@ rule "StartProcess"
 
         
         //create the instance, but don't start it yet
-        ProcessInstance processInstance = kcontext.getKnowledgeRuntime().createProcessInstance("tesouraria.Fluxo", params);
+        org.kie.api.runtime.process.ProcessInstance processInstance = kcontext.getKnowledgeRuntime().createProcessInstance("tesouraria.Fluxo", params);
 
         //insert the instance in the WM: this will create the activation of the other rule
         insert(processInstance);
