@@ -13,7 +13,7 @@
         </field-data>
         <field-data>
           <name>gestor</name>
-          <value>MESA</value>
+          <value>CAMBIO</value>
           <nature>4</nature>
         </field-data>
         <field-data>
@@ -39,24 +39,33 @@
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
       <name>analisar</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>25</executionTimeResult>
+      <numberOfRulesFired>3</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>decisaoEstrategia</fieldName>
           <expected>RETORNAR PARA ANALISE</expected>
+          <successResult>true</successResult>
+          <explanation>[o1] field [decisaoEstrategia] was [RETORNAR PARA ANALISE].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
         <expect-field>
           <fieldName>decisaoProduto</fieldName>
           <expected>RETORNAR PARA ANALISE</expected>
+          <successResult>true</successResult>
+          <explanation>[o1] field [decisaoProduto] was [RETORNAR PARA ANALISE].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
         <expect-field>
           <fieldName>decisaoOperador</fieldName>
           <expected>RETORNAR PARA ANALISE</expected>
+          <successResult>true</successResult>
+          <explanation>[o1] field [decisaoOperador] was [RETORNAR PARA ANALISE].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -65,6 +74,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2017-09-22 00:00:05.288 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.redhat.tesouraria</packageName>
