@@ -13,11 +13,11 @@ rule "StartProcess"
 	lock-on-active true
 
     when
-        $op : Operacao( )
+        $w : Wrapper( )
     then
         System.out.println("INICIANDO PROCESSO PARA TESTE UNITARIO 1");
         Map params = new HashMap();
-        params.put("o1", $op);
+        params.put("o1", $w.getOperacao());
 
         System.out.println("... iniciando processo...");
 
