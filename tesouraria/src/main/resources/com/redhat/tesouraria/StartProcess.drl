@@ -25,9 +25,6 @@ rule "StartProcess"
         kcontext.getKnowledgeRuntime().startProcess("tesouraria.Fluxo");
         
 
-        /*
-
-
         System.out.println("... 1 ...");
 
         //create the instance, but don't start it yet
@@ -48,7 +45,6 @@ rule "StartProcess"
         //retract($w);
         //retract(processInstance);
         
-        */
 
         
         
