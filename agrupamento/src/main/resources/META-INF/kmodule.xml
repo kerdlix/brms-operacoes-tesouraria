@@ -1,6 +1,0 @@
-<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="myBaseAgrupamento" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="com.redhat.*">
-    <ksession name="mySession" type="stateless" default="true" clockType="realtime"/>
-    <ksession name="mySessionStateful" type="stateful" default="false" clockType="realtime"/>
-  </kbase>
-</kmodule>
