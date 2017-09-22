@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.redhat</groupId>
   <artifactId>tesouraria</artifactId>
-  <version>1.11</version>
+  <version>2.0</version>
   <packaging>kjar</packaging>
   <name>tesouraria</name>
   <repositories>
