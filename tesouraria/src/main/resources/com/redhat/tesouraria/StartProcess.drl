@@ -38,8 +38,8 @@ rule "StartProcess"
         
         System.out.println("... 4 ...");
         
-        //retract($op);
-        //retract(processInstance);
+        retract($op);
+        retract(processInstance);
 
         
         
