@@ -20,7 +20,16 @@ rule "StartProcess"
         params.put("o1", $op);
 
         System.out.println("... iniciando processo...");
-        kcontext.getKnowledgeRuntime().startProcess("tesouraria.Fluxo", params);
-        retract($op);
+
+        
+        //create the instance, but don't start it yet
+        ProcessInstance processInstance = kcontext.getKnowledgeRuntime().createProcessInstance("tesouraria.Fluxo", params);
+
+        //insert the instance in the WM: this will create the activation of the other rule
+        insert(processInstance);
+
+        //now, start the process
+        kcontext.getKnowledgeRuntime().startProcessInstance(processInstance.getProcessInstance());        
+        
         
 end
