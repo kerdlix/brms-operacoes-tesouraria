@@ -22,7 +22,7 @@ rule "StartProcess"
 
         System.out.println("... iniciando processo...");
         insert($w.getOperacao());
-        kcontext.getKnowledgeRuntime().startProcess("tesouraria.Fluxo");
+        //kcontext.getKnowledgeRuntime().startProcess("tesouraria.Fluxo");
         
 
 
