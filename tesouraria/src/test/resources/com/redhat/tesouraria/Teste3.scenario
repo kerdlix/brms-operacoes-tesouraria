@@ -46,8 +46,8 @@
       <name>start</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>52</executionTimeResult>
-      <numberOfRulesFired>1</numberOfRulesFired>
+      <executionTimeResult>25</executionTimeResult>
+      <numberOfRulesFired>6</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -55,8 +55,8 @@
           <fieldName>decisaoEstrategia</fieldName>
           <expected>RETORNAR PARA ANALISE</expected>
           <actualResult></actualResult>
-          <successResult>false</successResult>
-          <explanation>[o2] field [decisaoEstrategia] was [] expected [DESCARTAR].</explanation>
+          <successResult>true</successResult>
+          <explanation>[o2] field [decisaoEstrategia] was [RETORNAR PARA ANALISE].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -64,8 +64,8 @@
           <fieldName>decisaoProduto</fieldName>
           <expected>RETORNAR PARA ANALISE</expected>
           <actualResult></actualResult>
-          <successResult>false</successResult>
-          <explanation>[o2] field [decisaoProduto] was [] expected [RETORNAR PARA ANALISE].</explanation>
+          <successResult>true</successResult>
+          <explanation>[o2] field [decisaoProduto] was [RETORNAR PARA ANALISE].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -73,8 +73,8 @@
           <fieldName>decisaoOperador</fieldName>
           <expected>RETORNAR PARA ANALISE</expected>
           <actualResult></actualResult>
-          <successResult>false</successResult>
-          <explanation>[o2] field [decisaoOperador] was [] expected [DESCARTAR].</explanation>
+          <successResult>true</successResult>
+          <explanation>[o2] field [decisaoOperador] was [RETORNAR PARA ANALISE].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -83,7 +83,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-08-29 14:51:36.664 UTC</lastRunResult>
+  <lastRunResult>2017-09-22 14:46:04.324 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>com.redhat.tesouraria</packageName>
