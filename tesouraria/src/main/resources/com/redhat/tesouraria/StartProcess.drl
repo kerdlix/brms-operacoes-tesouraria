@@ -15,37 +15,22 @@ rule "StartProcess"
     when
         $w : Wrapper( )
     then
-        System.out.println("INICIANDO PROCESSO PARA TESTE UNITARIO 1");
+        System.out.println("INICIANDO PROCESSO PARA TESTE UNITARIO");
         Map params = new HashMap();
         params.put("o1", $w.getOperacao());
 
 
-        System.out.println("... iniciando processo...");
         insert($w.getOperacao());
         kcontext.getKnowledgeRuntime().startProcess("tesouraria.Fluxo");
         
 
-        System.out.println("... 1 ...");
-
         //create the instance, but don't start it yet
         org.kie.api.runtime.process.ProcessInstance processInstance = kcontext.getKnowledgeRuntime().createProcessInstance("tesouraria.Fluxo", params);
-
-        System.out.println("... 2 ...");
 
         //insert the instance in the WM: this will create the activation of the other rule
         insert(processInstance);
 
-        System.out.println("... 3 ...");
-
         //now, start the process
         kcontext.getKnowledgeRuntime().startProcessInstance(processInstance.getId());        
-        
-        System.out.println("... 4 ...");
-        
-        //retract($w);
-        //retract(processInstance);
-        
 
-        
-        
 end
