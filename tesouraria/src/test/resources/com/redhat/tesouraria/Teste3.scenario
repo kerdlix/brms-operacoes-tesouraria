@@ -1,0 +1,96 @@
+<scenario>
+  <name>Teste2.scenario</name>
+  <maxRuleFirings>100000</maxRuleFirings>
+  <globals/>
+  <fixtures>
+    <fact-data>
+      <type>Operacao</type>
+      <fieldData>
+        <field-data>
+          <name>mesa</name>
+          <value>FX</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>gestor</name>
+          <value>CAMBIO</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>operador</name>
+          <value>Operador Cambio 1</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>produto</name>
+          <value>Produto Cambio 6</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>o2</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <fact-data>
+      <type>Wrapper</type>
+      <fieldData>
+        <field-data>
+          <name>operacao</name>
+          <value>=o2</value>
+          <nature>2</nature>
+        </field-data>
+      </fieldData>
+      <name>w</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>start</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+    <execution-trace>
+      <executionTimeResult>52</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>decisaoEstrategia</fieldName>
+          <expected>DESCARTAR</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[o2] field [decisaoEstrategia] was [] expected [DESCARTAR].</explanation>
+          <operator>==</operator>
+          <nature>1</nature>
+        </expect-field>
+        <expect-field>
+          <fieldName>decisaoProduto</fieldName>
+          <expected>RETORNAR PARA ANALISE</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[o2] field [decisaoProduto] was [] expected [RETORNAR PARA ANALISE].</explanation>
+          <operator>==</operator>
+          <nature>1</nature>
+        </expect-field>
+        <expect-field>
+          <fieldName>decisaoOperador</fieldName>
+          <expected>DESCARTAR</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[o2] field [decisaoOperador] was [] expected [DESCARTAR].</explanation>
+          <operator>==</operator>
+          <nature>1</nature>
+        </expect-field>
+      </fieldValues>
+      <name>o2</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
+  </fixtures>
+  <lastRunResult>2017-08-29 14:51:36.664 UTC</lastRunResult>
+  <rules/>
+  <inclusive>true</inclusive>
+  <packageName>com.redhat.tesouraria</packageName>
+  <imports>
+    <imports/>
+  </imports>
+  <ksessions>
+    <string>mySessionStateful</string>
+  </ksessions>
+</scenario>
